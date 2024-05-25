@@ -1,0 +1,16 @@
+<mxfile host="65bd71144e">
+    <diagram id="38wB6UssHmYytAeDEinz" name="Page-1">
+        <mxGraphModel dx="804" dy="563" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="HomePage&lt;br&gt;fetch:&amp;nbsp;&lt;br&gt;props:&amp;nbsp;&lt;br&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="90" y="270" width="220" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="App:&lt;br&gt;Router:&lt;br&gt;&amp;lt;Header/&amp;gt;&lt;br&gt;&lt;br&gt;&amp;lt;Rooms&amp;gt;&lt;br&gt;&amp;lt;RoomDetails&amp;gt;&lt;br&gt;&lt;br&gt;&amp;lt;Footer/&amp;gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="270" y="30" width="200" height="190" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
