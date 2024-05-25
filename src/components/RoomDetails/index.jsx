@@ -1,22 +1,16 @@
-import { Registration } from "../Registration";
+import { Description } from '../Description';
+import { Registration } from '../Registration';
 
 export const RoomDetails = () => {
   return (
-    <section class="light">
-    <div class="container">
-      <h2>Heading</h2>
-      <div class="columns-2">
-        <div class="column">
-          <img src="img/image1.svg" />
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque accusantium, dolor quisquam doloremque quod nobis temporibus ducimus sapiente consectetur distinctio assumenda, nisi suscipit saepe. Vero.
-          </p>
+    <section className="light">
+      <div className="container">
+        <h2>Heading</h2>
+        <div className="columns-2">
+          <Description />
+          <Registration />
         </div>
-        
       </div>
-    </div>
-    <Registration/>
-  </section>
-
+    </section>
   );
-} 
+};
