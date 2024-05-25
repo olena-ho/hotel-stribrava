@@ -1,17 +1,7 @@
 import './style.css';
 import { RoomCard } from '../RoomCard';
 
-export const Rooms = ({rooms}) => {
-  const renderRoomCards = () => {
-    return rooms.map((room) => (
-      <RoomCard
-        key={room.id}
-        title={room.name}
-        body={`${room.price} kč za osobu`}
-        image={room.image}
-      />
-    ));
-  };
+export const Rooms = ({rooms, onSelect}) => {
 
   return (
     <section className="dark">
@@ -19,7 +9,16 @@ export const Rooms = ({rooms}) => {
         <h2>Naše pokoje</h2>
         <p>Vyberte si, který z našich pokojů je pro vás ten pravý.</p>
         <div className="cards-row">
-          {renderRoomCards()}
+          {rooms.map((room) => (
+      <RoomCard
+        key={room.id}
+        id={room.id}
+        title={room.name}
+        body={`${room.price} kč za osobu`}
+        image={room.image}
+        onSelect={onSelect}
+      />
+    ))}
         </div>
       </div>
     </section>
