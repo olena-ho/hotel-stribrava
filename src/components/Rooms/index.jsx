@@ -1,10 +1,5 @@
 import './style.css';
 import { RoomCard } from '../RoomCard';
-// import ukryt from '';
-// import zaklad from '../../../assets/img/pokoj02.jpg';
-// import klasik from '../../../assets/img/pokoj03.jpg';
-// import komfort from '../../../assets/img/pokoj04.jpg';
-// import luxus from '../../../assets/img/pokoj05.jpg';
 
 export const Rooms = ({rooms}) => {
   const renderRoomCards = () => {
