@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { Rooms } from '../../components/Rooms';
+import { RoomDetails } from '../../components/RoomDetails';
 
 
 export const HomePage = () => {
@@ -13,7 +14,7 @@ export const HomePage = () => {
   return (
     <main>
       <Rooms/>
-      <RoomDetail/>
+      <RoomDetails />
     </main>
   );
 };
