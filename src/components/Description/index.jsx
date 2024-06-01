@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+
 
 export const Description = ({ name, price, image, description }) => {
   

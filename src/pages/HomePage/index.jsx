@@ -17,7 +17,6 @@ export const HomePage = () => {
     fetchRooms();
   }, []);
 
-  console.log(rooms && rooms[0]);
   console.log(selectedRoomId);
 
   return (
